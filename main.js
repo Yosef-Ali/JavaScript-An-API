@@ -30,7 +30,15 @@ async function loadByBreed(breed) {
 	if (breed != 'Select a breed') {
 		const response = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
 		const data = await response.json();
-		//createDogList(data.message);
-		console.log(data);
+		createSlideShow(data.message);
 	}
+}
+
+function createSlideShow(images) {
+	const slideShow = document.getElementById('slide-show');
+	slideShow.innerHTML = `
+	<div class="slides"
+	 style="background-image: url('${images[0]}');">
+	 </div>
+	`;
 }
