@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.app {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.app-header {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.app-header h1 {
+	margin: 0 0 20px 0;
+}
+
+.app-header select {
+	font-size: 1.2rem;
+}
+.slide-Show {
+	flex: 1;
+	background-color: #333;
+}
