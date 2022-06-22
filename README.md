@@ -1,1 +1,5 @@
-# JavaScript-An-API
+# JavaScript-Dog-Show-App
+
+---
+
+![alt text](dog-show-app.png)
